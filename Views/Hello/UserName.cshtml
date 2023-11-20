@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello!</title>
+         <link rel="stylesheet" href="~/css/style.css"/>    
+    </head>
+    <body>
+        <h1>Ketu eshte userName me @ViewBag.Name</h1>
+        <p><h1>@ViewBag.Example</h1></p>
+        <h1> Age : @ViewBag.Age</h1>
+
+
+
+@{
+List<string> StringList2 = new List<string>() {"one", "two", "three", "four"}; 
+
+foreach(string fjala in StringList2)    
+    {        
+        // We can render HTML from within C# code!
+    	// We just have to remember to bring @ back if we want to render variables
+          <h2> @fjala </h2>
+          <p> @fjala </p>
+    }
+}
+
+
+
+    </body>
+</html>
+

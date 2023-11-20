@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "uZ2tVVwEgfB+sa6nHcNPO5xqI3SteRmjNcG5xuoIMkg=",
+  "Source": "netCoreTutorial",
+  "BasePath": "_content/netCoreTutorial",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "netCoreTutorial/wwwroot",
+      "Source": "netCoreTutorial",
+      "ContentRoot": "/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/netCoreTutorial/wwwroot/",
+      "BasePath": "_content/netCoreTutorial",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/netCoreTutorial/wwwroot/css/style.css",
+      "SourceId": "netCoreTutorial",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/netCoreTutorial/wwwroot/",
+      "BasePath": "_content/netCoreTutorial",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    }
+  ]
+}
